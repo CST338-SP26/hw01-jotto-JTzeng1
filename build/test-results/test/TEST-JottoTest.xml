@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="JottoTest" tests="18" skipped="0" failures="1" errors="0" timestamp="2026-02-13T07:49:45.662Z" hostname="JOTAKU" time="0.084">
+  <properties/>
+  <testcase name="showPlayedWords()" classname="JottoTest" time="0.025"/>
+  <testcase name="setCurrentWord()" classname="JottoTest" time="0.001"/>
+  <testcase name="showPlayerGuesses()" classname="JottoTest" time="0.003"/>
+  <testcase name="readWords()" classname="JottoTest" time="0.005"/>
+  <testcase name="showWordList()" classname="JottoTest" time="0.001"/>
+  <testcase name="pickWord()" classname="JottoTest" time="0.005"/>
+  <testcase name="getPlayedWords()" classname="JottoTest" time="0.003"/>
+  <testcase name="getLetterCount()" classname="JottoTest" time="0.018">
+    <failure message="org.opentest4j.AssertionFailedError: expected: &lt;3&gt; but was: &lt;0&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: expected: &lt;3&gt; but was: &lt;0&gt;
+	at app//org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at app//org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at app//org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at app//org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)
+	at app//org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:145)
+	at app//org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:527)
+	at app//JottoTest.getLetterCount(JottoTest.java:157)
+	at java.base@25.0.2/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base@25.0.2/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base@25.0.2/java.util.ArrayList.forEach(ArrayList.java:1604)
+</failure>
+  </testcase>
+  <testcase name="getCurrentWord()" classname="JottoTest" time="0.002"/>
+  <testcase name="score()" classname="JottoTest" time="0.003"/>
+  <testcase name="updateWordList()" classname="JottoTest" time="0.001"/>
+  <testcase name="playerGuessScores()" classname="JottoTest" time="0.001"/>
+  <testcase name="addPlayerGuess()" classname="JottoTest" time="0.001"/>
+  <testcase name="setFilename()" classname="JottoTest" time="0.001"/>
+  <testcase name="getFilename()" classname="JottoTest" time="0.001"/>
+  <testcase name="getPlayerGuesses()" classname="JottoTest" time="0.001"/>
+  <testcase name="getScore()" classname="JottoTest" time="0.002"/>
+  <testcase name="getWordList()" classname="JottoTest" time="0.001"/>
+  <system-out><![CDATA[DEBUG word: oiled
+No guesses yet
+Current player guesses: 
+grant
+Would you like to add the words to the word list? (y/n)
+Checking oiled
+Checking grant
+Checking adieu
+Checking salet
+DEBUG word: salet
+DEBUG word: oiled
+Pickword test: oiled
+DEBUG word: adieu
+Pickword test: adieu
+DEBUG word: grant
+Pickword test: grant
+You've guessed them all!
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
